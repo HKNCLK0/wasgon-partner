@@ -9,7 +9,7 @@ const Header = () => {
   const [cookie, setCookies] = useCookies(["partnerToken"]);
 
   return (
-    <header className="bg-gray-100 font-Montserrat flex items-center px-20 justify-between h-16">
+    <header className="bg-white font-Montserrat flex items-center px-20 justify-between h-20 mb-8">
       <Link to="/">
         <img src={Logo} className="w-48" alt="Logo" />
       </Link>

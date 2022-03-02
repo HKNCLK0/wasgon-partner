@@ -1,4 +1,5 @@
 import { Dashboard, Login } from "./screens";
+import { Products } from "./screens/PartnerPages";
 
 export const routes = [
   {
@@ -8,5 +9,11 @@ export const routes = [
   {
     path: "/dashboard",
     element: <Dashboard />,
+  },
+
+  //Partner Pages
+  {
+    path: "/dashboard/products",
+    element: <Products />,
   },
 ];
