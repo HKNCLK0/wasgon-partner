@@ -14,7 +14,7 @@ const Dashboard = () => {
         <Box className="w-11/12">
           <div className="w-full px-16 flex">
             <LeftBar />
-            <h1>User Orders</h1>
+            <h1>Dashboard</h1>
           </div>
         </Box>
       </Container>

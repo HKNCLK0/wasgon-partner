@@ -1,12 +1,12 @@
 import React from "react";
 
-import { BusinessProducts, LeftBar } from "../../components/Dashboard";
+import { LeftBar } from "../../components/Dashboard";
 
 import { Header } from "../../components/main";
 
 import { Box, Container } from "../../components/main/UI";
 
-const Products = () => {
+const Comments = () => {
   return (
     <>
       <Header />
@@ -14,7 +14,7 @@ const Products = () => {
         <Box className="w-11/12">
           <div className="w-full px-16 flex">
             <LeftBar />
-            <BusinessProducts />
+            <h1>Comments</h1>
           </div>
         </Box>
       </Container>
@@ -22,4 +22,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default Comments;

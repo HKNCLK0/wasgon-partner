@@ -1,5 +1,5 @@
 import { Dashboard, Login } from "./screens";
-import { Products } from "./screens/PartnerPages";
+import { Comments, Orders, Products } from "./screens/PartnerPages";
 
 export const routes = [
   {
@@ -15,5 +15,13 @@ export const routes = [
   {
     path: "/dashboard/products",
     element: <Products />,
+  },
+  {
+    path: "/dashboard/orders",
+    element: <Orders />,
+  },
+  {
+    path: "/dashboard/comments",
+    element: <Comments />,
   },
 ];

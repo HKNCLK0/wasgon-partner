@@ -16,6 +16,12 @@ const Login = () => {
   const [partnerEmail, setPartnerEmail] = useState("");
   const [partnerPassword, setPartnerPassword] = useState("");
 
+  useEffect(() => {
+    if (cookie.partnerToken) {
+      navigate("/dashboard");
+    }
+  }, []);
+
   const handleLogin = () => {
     axios
       .post(`${API_URL}/partner/login`, {

@@ -1,28 +1,30 @@
-import { FiBox, FiHelpCircle } from "react-icons/fi";
+import { FiBox } from "react-icons/fi";
 import { FaRegComment } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { MdOutlineAddBusiness } from "react-icons/md";
-import { RiCoupon3Line } from "react-icons/ri";
-import { BiUser } from "react-icons/bi";
-import { GoLocation } from "react-icons/go";
+import { MdOutlineShoppingCart } from "react-icons/md";
 
 export const businessBarButtonData = [
   {
     id: 0,
+    to: "/dashboard",
+    name: "Anasayfa",
+    iconName: FiBox,
+  },
+  {
+    id: 1,
     to: "/dashboard/products",
     name: "Ürünler",
     iconName: FiBox,
   },
   {
-    id: 1,
-    to: "",
+    id: 2,
+    to: "/dashboard/orders",
     name: "Siparişler",
-    iconName: FiBox,
+    iconName: MdOutlineShoppingCart,
   },
   {
-    id: 2,
-    to: "",
-    name: "Yorumlar",
-    iconName: FiBox,
+    id: 3,
+    to: "/dashboard/comments",
+    name: "Değerlendirmeler",
+    iconName: FaRegComment,
   },
 ];
